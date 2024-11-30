@@ -148,8 +148,6 @@ h4 {
   gap: 1em;
 }
 
-
-
 .main-links a:hover {
   color: var(--secudary-color);
 }
@@ -1887,7 +1885,7 @@ input[type="range"]::-webkit-slider-thumb {
 * 12.PÁGINA DO CARRINHO
 *-------------------------------*/
 .products.cart form {
-  width: var(--percent100);
+  
 }
 .products.cart table thead th {
   vertical-align: middle;
@@ -1900,7 +1898,6 @@ input[type="range"]::-webkit-slider-thumb {
 .products.cart table :where(th, td):last-child {
   text-align: left;
   padding-left: 2em;
-
 }
 .products.cart table tbody td:first-child {
   padding-left: 0;
@@ -1926,7 +1923,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 .cart-summary {
   width: var(--percent100);
-  margin:auto;
+  margin: auto;
 }
 .cart-summary .item {
   background-color: var(--light-bg-color);
